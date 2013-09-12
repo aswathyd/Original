@@ -1,4 +1,4 @@
-// Draws EVERYTHING!!!
+
 function drawGame() {
 	drawWater();
 	drawRoad();
@@ -42,7 +42,6 @@ function drawFooter() {
 	drawTimer();
 }
 
-// Divide or multiply x as necessary to adjust bar's length
 function drawTimer() {
 	var x = time / 1000 * timeInterval * 4;
 	ctx.fillStyle = "#00FF00";
